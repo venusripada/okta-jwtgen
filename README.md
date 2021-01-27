@@ -21,3 +21,24 @@ aud: "https://<Okta org>/oauth2/v1/token",
 ```
 node node-jwtgen.js
 ```
+
+
+##Java instructions
+###1. Clone this repository
+```
+git clone https://github.com/venusripada/okta-jwtgen.git
+```
+###2.Copy private, clientID, and Okta org in the code 
+```
+cd okta-jwtgen
+
+```
+###3. Maven package
+```
+mvn package
+
+```
+###4. Run the file 
+```
+java -jar target/jwt-gen-1.0-SNAPSHOT-jar-with-dependencies.jar
+```
